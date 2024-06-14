@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 70%;
+  overflow-x: hidden;
+}
+
+/*Menu*/
+.content {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #76bc3e;
+  position: fixed;
+}
+
+.logo {
+  width: 110px;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  /* gap: px; */
+}
+
+.logo h3 {
+  color: white;
+  font-size: 1.9rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.content .list-menu {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .list-menu li a {
+  padding: 3rem 1rem 2rem 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover {
+  background-color: #3333;
+  border-bottom: 4px solid #58faae;
+  color: #58faae;
+}
+
+.primeira-sessao {
+  /* background-image:linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./assets/images/wallpaper/WPP07.jpg); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 70px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Carousel*/
+
+/* Estilos comuns para os cards */
+main {
+  display: flex;
+  justify-content: center;
+}
+.secao4 {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  padding-top: 150px;
+}
+
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 10px;
+  text-align: center;
+}
+
+.secao4-div-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3 - 60px);
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.secao4-div-card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.secao4-div-card img {
+  width: 75%;
+  height: auto;
+}
+
+.secao4-div-card h3 {
+  margin-bottom: 0px;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .secao4-div-card {
+    width: 100%;
+  }
+}

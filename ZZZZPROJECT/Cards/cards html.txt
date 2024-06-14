@@ -1,0 +1,25 @@
+<!-- Seção com cards -->
+<section class="secao4" id="sobre">
+    <div class="secao4-div">
+        <!-- Card 1 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="https://images.unsplash.com/photo-1717780084943-305381b5f8f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyMzU0MDl8&ixlib=rb-4.0.3&q=85" alt="imagem do card 1 html e css">
+            <h3>Card 1</h3>
+            <p>Descrição do card 1.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="https://images.unsplash.com/photo-1716094978938-3909e20d05e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyMzU0OTZ8&ixlib=rb-4.0.3&q=85" alt="imagem do card 2 html e css">
+            <h3>Card 2</h3>
+            <p>Descrição do card 2.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="https://images.unsplash.com/photo-1717010908458-cedcec3d8222?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyMzU0NTZ8&ixlib=rb-4.0.3&q=85" alt="imagem do card 3 html e css">
+            <h3>Card 3</h3>
+            <p>Descrição do card 3.</p>
+        </div>
+    </div>
+</section>
