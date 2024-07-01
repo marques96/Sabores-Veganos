@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+header{
+    width: 100%;
+    background-color: #424147;
+}
+
+.top-header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+.top-header .logotipo img{
+    max-width: 240px;
+}
+
+.top-header .btn-social button{
+    width: 50px;
+    height: 50px;
+}
